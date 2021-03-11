@@ -1,0 +1,41 @@
+.carousel-container {
+  height: 25vw;
+  width: 45vw;
+  display: grid;
+  grid-template: 1 / 1;
+  font-size: 6rem;
+}
+
+.carousel-slide {
+  grid-area: 1 / 1;
+  transition: all 0.3s 0.3s cubic-bezier(0.5, 0, 0.5, 1);
+  transition-property: opacity, transform;
+
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(black, 0.1);
+}
+
+.carousel-slide[hidden] {
+  transition-delay: 0s;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.carousel-slide:nth-child(1) {
+  background: linear-gradient(45deg, #0e192c, #21375c);
+  color: #fa9474;
+}
+
+.carousel-slide:nth-child(2) {
+  background: linear-gradient(45deg, #0e192c, #21375c);
+  color: #67ddff;
+}
+
+.carousel-slide:nth-child(3) {
+  background: linear-gradient(45deg, #0e192c, #21375c);
+  color: #40ffdc;
+}
