@@ -15,9 +15,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/components/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/*.stories.{js,jsx}"
+    ]
   },
   "eslintConfig": {
     "extends": [

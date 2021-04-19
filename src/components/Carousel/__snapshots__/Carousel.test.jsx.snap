@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render 1`] = `
+<section
+  class="carousel-container"
+  data-testid="carousel-container"
+>
+  <article
+    class="carousel-slide"
+  >
+    Swashbuckling
+  </article>
+  <article
+    class="carousel-slide"
+    hidden=""
+  >
+    with
+  </article>
+  <article
+    class="carousel-slide"
+    hidden=""
+  >
+    Code
+  </article>
+</section>
+`;

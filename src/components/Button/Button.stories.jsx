@@ -33,4 +33,10 @@ Small.args = {
   label: "Button",
 };
 
+export const CustomColor = Template.bind({});
+CustomColor.args = {
+  label: "Custom Color",
+  backgroundColor: "coral",
+};
+
 export default Story;

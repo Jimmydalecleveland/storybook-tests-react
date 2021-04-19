@@ -1,15 +1,15 @@
-import Carousel from "."
+import Carousel from ".";
 
 const Story = {
-  title: 'Example/Carousel',
-  component: Carousel
-}
+  title: "Example/Carousel",
+  component: Carousel,
+};
 
-const Template = (args) => <Carousel {...args} />
+const Template = (args) => <Carousel {...args} />;
 
-export const Default = Template.bind({})
+export const Default = Template.bind({});
 Default.args = {
-  slides: ["Swashbuckling", "with", "Code"]
-}
+  slides: ["Swashbuckling", "with", "Code"],
+};
 
-export default Story
+export default Story;
